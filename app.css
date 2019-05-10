@@ -37,23 +37,40 @@ section{
     bottom: 0;
     right: 2em;
     width: 80vw;}
+#curso{}
 
-#foto{background:#ececec;
-    border-radius: 50%;
-    height: 3em;
-    position: absolute;
-    right: 1em;
-    top:1em;
-    width: 3em;}
+#data-curso{background: #fcfcfc;
+            box-sizing: border-box;
+            border-radius: 50%;
+            color:#029ba0;
+            font-size: 1.5em;
+            font-weight: bold;
+            height:3em;
+            justify-content:center;
+            padding:0.3em;
+            position: absolute;
+            top:0.8em;
+            left:2em;
+            width:3em;
+            text-align:center;}    
+
+#foto{background:#fcfcfc;
+      border-radius: 50%;
+      height: 3em;
+      position: absolute;
+      right: 1em;
+      top:1em;
+      width: 3em;}
    
 #head-section{
-    background: cyan;
-    border-radius: 5px;
-    height: 30%;
-    margin-top: 0;
-    position: relative;
-    top:0em;
-    width: 100%;}
+     background: cyan;
+     border-radius: 5px;
+     height: 30%;
+     margin-top: 0;
+     position: relative;
+     top:0em;
+     width: 100%;}
+    
 #livelogo{
     width: 100%;}    
 
@@ -65,7 +82,8 @@ section{
 
 .materia{
     background: cyan;
-    height: 13%;
+    height:20%;
+    justify-content: space-around;
     margin:3px auto;
     position: relative;
     width: 100%;}
