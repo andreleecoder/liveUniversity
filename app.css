@@ -11,7 +11,7 @@ aside{
 
 
 header{
-    background: bisque;
+    background: fcfcfc;
     height: 15vh;
     position: absolute;
     right: 2em;
@@ -19,7 +19,7 @@ header{
     width: 80vw;}
 
 main{
-    background: bisque;
+    background: #fcfcfc;
     font-family:Arial, Helvetica, sans-serif; 
     grid-template-columns: repeat(12,1fr);
     height: 100vh;
@@ -28,6 +28,7 @@ main{
 
 section{
     background: white;
+    border-radius: 5px;
     box-sizing: border-box;
     height: 80vh;
     margin: 0;
@@ -37,7 +38,7 @@ section{
     right: 2em;
     width: 80vw;}
 
-#foto{background: gray;
+#foto{background:#ececec;
     border-radius: 50%;
     height: 3em;
     position: absolute;
@@ -46,14 +47,17 @@ section{
     width: 3em;}
    
 #head-section{
-    background: beige;
-    height: 35%;
+    background: cyan;
+    border-radius: 5px;
+    height: 30%;
     margin-top: 0;
     position: relative;
     top:0em;
     width: 100%;}
+#livelogo{
+    width: 100%;}    
 
-#live-uni{color: gray;
+#live-uni{color:#9b9b9b;
     position: absolute;
     right: 4.5em;
     top:2em;
@@ -61,8 +65,8 @@ section{
 
 .materia{
     background: cyan;
-    height: 10%;
-    margin:auto;
+    height: 13%;
+    margin:3px auto;
     position: relative;
     width: 100%;}
     
