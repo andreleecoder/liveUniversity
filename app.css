@@ -48,9 +48,6 @@ section{
             height:3em;
             justify-content:center;
             padding:0.3em;
-            position: absolute;
-            top:0.8em;
-            left:2em;
             width:3em;
             text-align:center;}    
 
@@ -83,6 +80,8 @@ section{
 .materia{
     background: cyan;
     height:20%;
+    display: flex;
+    flex-wrap: nowrap;
     justify-content: space-around;
     margin:3px auto;
     position: relative;
