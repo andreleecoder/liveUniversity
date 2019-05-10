@@ -47,12 +47,13 @@ section{
     right: 1em;
     top:1em;
     width: 3em;}
-    #head-section{
-        background: beige;
-        height: 35%;
-        justify-content: space-evenly;
-        margin: 0.5em auto;
-        width: 100%;}
+   
+#head-section{
+    background: beige;
+    height: 35%;
+    justify-content: space-evenly;
+    margin: 0.5em auto;
+    width: 100%;}
 
 #live-uni{color: gray;
     position: absolute;
