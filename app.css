@@ -9,12 +9,6 @@ aside{
     margin: 0,5em;
     width: 15vw;}
 
-div{
-    background: beige;
-    height: 10%;
-    justify-content: space-evenly;
-    margin: 0.5em auto;
-    width: 100%;}
 
 header{
     background: bisque;
@@ -34,7 +28,10 @@ main{
 
 section{
     background: white;
+    box-sizing: border-box;
     height: 80vh;
+    margin: 0;
+    padding: 0;
     position: absolute;
     bottom: 0;
     right: 2em;
@@ -51,26 +48,39 @@ section{
 #head-section{
     background: beige;
     height: 35%;
-    justify-content: space-evenly;
-    margin: 0.5em auto;
+    margin-top: 0;
+    position: relative;
+    top:0em;
     width: 100%;}
 
 #live-uni{color: gray;
     position: absolute;
     right: 4.5em;
-    top:2em;}
+    top:2em;
+    font-weight:lighter;}
+
+.materia{
+    background: cyan;
+    height: 10%;
+    margin:auto;
+    position: relative;
+    width: 100%;}
+    
 
 
 #teacher-name{
     position: absolute;
     right: 3em;
-    top:0;}
+    top:0;
+    font-weight:lighter;}
 
     /*font-colors*/
     .font-blue{color:#029ba0;}
     .font-gold{color:#dea727;}
     .font-light-gray{color:#9b9b9b;}
     .font-dark-gray{color:#4a4a4a;}
+    /*shadow effect*/
+    .shadow{box-shadow:0 3px  3px 0 grey  }
 
 
 
