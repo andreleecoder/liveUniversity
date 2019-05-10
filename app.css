@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: black;
+    grid-template-columns: repeat(12,1fr);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    
+}
+aside{
+    background: blue;
+    height: 100vh;
+    margin: 0,5em;
+    width: 20vw;
+}
+section{
+    background: white;
+    height: 75vh;
+    position: absolute;
+    bottom: 0;
+    right: 2em;
+    width: 75vw;
+}
