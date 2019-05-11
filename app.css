@@ -221,7 +221,7 @@ section{
     transform: translate(-95%, -50%);
 }       
         
-@media screen and (max-width: 400px){
+@media  (max-width: 400px){
     aside{
         visibility: hidden;}
     .livelogoMobile {
