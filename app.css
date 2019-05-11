@@ -223,21 +223,13 @@ section{
         
 
 
-    .font-blue{color:#029ba0;}
+   /* .font-blue{color:#029ba0;}
     .font-gold{color:#dea727;}
     .font-light-gray{color:#9b9b9b;}
     .font-dark-gray{color:#4a4a4a;}
-    
-    .shadow{box-shadow:2px 2px 2px 2px grey  }
+    .shadow{box-shadow:2px 2px 2px 2px grey  }*/
 
     
-    @media  (max-width:400px){
-       
-         aside{
-             visibility:hidden;
-         }
-       
-        }
     
 
    
