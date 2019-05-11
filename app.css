@@ -1,9 +1,4 @@
 /*elrementos*/
-aside{
-    background:white;
-    height: 140vh;
-    width: 15vw;}
-
 body{
     box-sizing: border-box;
     margin: 0;
@@ -17,6 +12,11 @@ header{
     right: 2rem;
     top: 0;
     width: 80vw;}
+
+aside{
+    background:white;
+    height: 140vh;
+    width: 15vw;}
 
 main{
     background: #fcfcfc;
@@ -169,7 +169,7 @@ section{
     .shadow{box-shadow:2px 2px 2px 2px grey  }
 
     
-    @media  (max-width:400px){
+    @media (max-width:400px){
        
          aside{
              visibility:collapse;
