@@ -221,7 +221,12 @@ section{
     transform: translate(-95%, -50%);
 }       
         
-
+@media screen and (max-width: 400px){
+    aside{
+        visibility: hidden;}
+    .livelogoMobile {
+        visibility: visible} 
+    }
 
    /* .font-blue{color:#029ba0;}
     .font-gold{color:#dea727;}
