@@ -1,13 +1,14 @@
-body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;}
-
+/*elementos*/
 aside{
     background:white;
     height: 100vh;
     margin: 0,5em;
     width: 15vw;}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
 
 
 header{
@@ -20,7 +21,7 @@ header{
 
 main{
     background: #fcfcfc;
-    font-family:Arial, Helvetica, sans-serif; 
+    font-family:sans-serif; 
     grid-template-columns: repeat(12,1fr);
     height: 100vh;
     width: 100vw;
@@ -37,14 +38,14 @@ section{
     bottom: 0;
     right: 2em;
     width: 80vw;}
-#curso{}
+ 
 
 #data-curso{background: #fcfcfc;
             box-sizing: border-box;
             border-radius: 50%;
             color:#029ba0;
             font-size: 1.5em;
-            font-weight: bold;
+            font-weight:100;
             height:3em;
             justify-content:center;
             padding:0.3em;
@@ -76,24 +77,35 @@ section{
     right: 4.5em;
     top:2em;
     font-weight:lighter;}
-
 .materia{
     background: cyan;
     height:20%;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin:3px auto;
     position: relative;
-    width: 100%;}
-    
-
+    width: 100%;}    
 
 #teacher-name{
     position: absolute;
     right: 3em;
     top:0;
     font-weight:lighter;}
+
+
+.btn-abrir{
+    background: #fcfcfc;
+    border: #fff;
+    border-radius: 10%;
+    box-sizing: border-box;
+    color: #029ba0;
+    font-weight: bold;
+    height: 2.5em;
+    margin-right: 1em;
+    margin-top: 1.5em;
+    width: 7em;}
+
 
     /*font-colors*/
     .font-blue{color:#029ba0;}
