@@ -2,7 +2,6 @@
 aside{
     background:white;
     height: 140vh;
-    margin: 0,5rem;
     width: 15vw;}
 
 body{
@@ -23,10 +22,11 @@ main{
     background: #fcfcfc;
     display: grid;
     font-family:sans-serif; 
-    grid-template-columns: 2fr;
+    grid-template-columns:17% 80%;
     height: 100vh;
+    margin: 0 auto;
     width: 100vw;
-    display: grid;}
+    }
 
 section{
     background: white;
@@ -34,16 +34,30 @@ section{
     box-sizing: border-box;
     height: 80vh;
     margin: 0;
+    margin-top:15vh;
     padding: 0;
-    position: absolute;
-    bottom: 0;
-    right: 2rem;
     width: 80vw;}
+
 .aside-colabs{
+    box-sizing: border-box;
     height: 3rem;
-    width: 100%;
+    margin-left:1rem;
+    margin-top: 7rem;
+    width: 100%;}
+
+.aside-cursos{ 
+    box-sizing: border-box;
+    height: 3rem;
+    margin-left:1rem;
+    width: 100%;}
+
+.aside-icons{
+    color: #000;
+    font-weight: 510;
+    height: 2rem;
+    width: 2rem;
+    text-decoration: none;
 }
-.aside-cursos{}
 
 #data-curso{background: #fcfcfc;
             box-sizing: border-box;
@@ -66,7 +80,7 @@ section{
       width: 3rem;}
    
 #head-section{
-     background: cyan;
+     background:#fff;
      border-radius: 5px;
      height: 30%;
      margin-top: 0;
@@ -74,7 +88,7 @@ section{
      grid-template-columns: 50% 50%;
      width: 100%;}
 #head-section_cursos{
-    background: cyan;
+    background: #fff;
     border-radius: 5px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight:lighter;
@@ -84,13 +98,18 @@ section{
     width: 50%;}
 
 #head-section_pesquisa{
-    background: cyan;
+    background: #fefefe;
+    border: solid 1px gray;
     border-radius: 5px;
-    height: 30%;
-    width: 50%;}    
+    position: absolute;
+    top: 11rem ;
+    right: 3rem;
+}
+   
 #livelogo{
     width: 100%;}
-#livelogoMobile{
+
+.livelogoMobile{
     width:30vh;
     visibility:hidden;}        
 
@@ -100,7 +119,7 @@ section{
     top:2rem;
     font-weight:lighter;}
 .materia{
-    background: cyan;
+    background: #fff;
     height:20%;
     display: flex;
     flex-wrap: wrap;
@@ -130,16 +149,34 @@ section{
 .btn-search{
     background: url(./images/search-icon-hi.png);
     background-size: 100% 100%;
+    border: #fefefe;
     height: 1.5rem;
+    margin: 5px;
     width: 1.5rem;}
-
-    /*font-colors*/
+.input-search{
+    border: #fefefe;
+    font-size: 1.5rem;
+    margin: 5px;
+    margin-left: 20px;
+    }
+        
+    
     .font-blue{color:#029ba0;}
     .font-gold{color:#dea727;}
     .font-light-gray{color:#9b9b9b;}
     .font-dark-gray{color:#4a4a4a;}
-    /*shadow effect*/
-    .shadow{box-shadow:0 3px  3px 0 grey  }
+    
+    .shadow{box-shadow:2px 2px 2px 2px grey  }
 
-
+    
+    @media  (max-width:400px){
+       
+         aside{
+             visibility:collapse;
+         }
+        .livelogoMobile{
+            width: 12rem;
+        
+        }
+    }
 
