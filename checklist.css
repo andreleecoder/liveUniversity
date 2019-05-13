@@ -1,3 +1,4 @@
+
 aside{
     display: grid;
     grid-template-columns:1fr;
@@ -16,7 +17,8 @@ section{
 }
 
 .Section__frstRow{
-    background:beige;
+    background:#fcfcfc;
+    border-radius: 10px;
     font-family: sans-serif;
     height: 6rem;
     width: 100%;
@@ -24,24 +26,64 @@ section{
     
     
 .Section__FrHead{
+    box-sizing: border-box;
     color:#dea727;
     font-size:1.5rem;
-    
+    margin: 0;
+    padding-left: 1rem;
+    padding-top: 2rem;
     left:1rem;
 }
 .Section__Frsubt{
+    align-content: center;
+    box-sizing: border-box;
     color:#dea727;
     font-size:1rem;
-    margin-top: -1rem;
-    position: relative;
+    margin: 0;
+    padding-left: 1rem;
     left:1rem;
 }
 
 .Section__scndRow{
-    background:beige;
+    align-content: center;
+    background:#fcfcfc;
     font-family: sans-serif;
     height: 5rem;
+    padding-top: 1rem;
     
+   }
+   .Section__btn-cheklst{
+       align-content: center;
+       border: none;
+       border-radius: 10px;
+       box-sizing: border-box;
+       height: 40%;
+       margin: 0;
+       padding: 0;
+       margin-left: 1rem;
+       margin-right: 0.5rem;
+       outline: #fff;
+       width: 15%;
+   }
+   .Section__btn-download{
+
+    align-content: center;
+       border-radius: 10px;
+       border: none;
+       box-sizing: border-box;
+       height: 40%;
+       margin: 0;
+       padding: 0;
+       outline: #fff;
+       width: 15%;
+   }
+   .image-btn{
+    border-radius: 10px;
+       box-sizing: border-box;
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       width: 100%;
    }
 
 .Section__thrdRow{
