@@ -29,7 +29,7 @@ header{
 .header__teacher-name{
     box-sizing: border-box;
     color:#029ba0;
-    font-size: 1.5rem;
+    font-size: 150%;
     font-weight:lighter;
     margin: 0;
     margin-right: 1rem;
@@ -64,15 +64,20 @@ header{
     visibility:hidden;}  
      
 aside{
+    grid-template-columns:1fr;
+    position: fixed;
+    bottom: 0;
     background:white;
-    box-shadow: gray 1px 2px 1px 2px;
+    box-shadow: 0 0 8px;
     display: grid;
-    grid-template-rows: 35% 7% 7%;
+    grid-template-rows: 35% 10% 10%;
     height: 100%;
-    width: 15vw;}
+    width: 15%;
+}
     
 .aside__livelogo{
-        width: 100%;}    
+        width: 100%;
+    }    
 .aside-colabs{
     box-sizing: border-box;
     height: 3rem;
@@ -106,8 +111,8 @@ aside{
 .aside-icons{
     color: #000;
     font-weight: 510;
-    height: 2rem;
-    width: 2.3rem;
+    height: 60%;
+    width: 12%;
     text-decoration: none;
 }
 
@@ -276,57 +281,7 @@ th{
     transform: translate(-95%, -50%);
 }       
         
-@media  (max-width: 770px){
-    aside{
-        visibility: hidden;}
-   
-   
-    .livelogoMobile {
-        width: 70%;
-        position:absolute;
-        top:3rem;
-        visibility: visible;
-       
-    }
-    
-    .section__head-pesquisa{
-        background: #fefefe;
-        border: solid 1px gray;
-        border-radius: 5px;
-        display: grid;
-        grid-template-columns: 80% 20%;
-        top: 15%;
-        width: 10rem;
-    }
 
-    .section__input-pesquisa{
-        border: #fefefe;
-        font-size: 0.8rem;
-        height: 1rem;
-        outline:none; 
-        width: 7rem;
-        }
-    .section__btn-pesquisa{
-        background: url(./images/search-icon-hi.png);
-        background-size: 100% 100%;
-        border: #fefefe;
-        border: hidden #fff;
-        height: 0.8rem;
-        outline:none; 
-        width: 0.2;}
-
-    .materia__data-curso{
-        visibility: hidden;
-    } 
-    .materia__colaboradores{
-        visibility: hidden;}
-
-    .materia__curso-elementos{
-        font-size: 0.8rem;
-        color:gray;
-        margin-bottom:-1rem;
-    }    
-}
 
     
 

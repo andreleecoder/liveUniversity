@@ -1,9 +1,5 @@
 
-h5{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 aside{
     display: grid;
     grid-template-columns:1fr;
@@ -23,7 +19,7 @@ aside{
 .Section__FrHead{
     box-sizing: border-box;
     color:#dea727;
-    font-size:1.5rem;
+    font-size:120%;
     margin: 0;
     padding-left: 1rem;
     padding-top: 2rem;
@@ -33,7 +29,7 @@ aside{
     align-content: center;
     box-sizing: border-box;
     color:#dea727;
-    font-size:1rem;
+    font-size:90%;
     margin: 0;
     padding-left: 1rem;
     left:1rem;
@@ -48,36 +44,30 @@ aside{
     
    }
    .Section__btn-cheklst{
-       align-content: center;
-       border: none;
-       border-radius: 10px;
-       box-sizing: border-box;
-       height: 2rem;
-       margin: 0;
-       padding: 0;
-       margin-left: 1rem;
-       margin-right: 0.5rem;
-       outline: #fff;
-       width: 8rem;
+    background: url(./images/btn_checklist.png);
+    background-size: 100%;
+    align-content: center;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    outline: #fff;
+    width: 20%;
    }
    .Section__btn-download{
-    align-content: center;
+       background: url(./images/btn_baixarConteudo.png);
+       background-size: 100%;
+       align-content: center;
        border-radius: 10px;
        border: none;
        box-sizing: border-box;
-       height: 2rem;
+       height: 40%;
        margin: 0;
        padding: 0;
        outline: #fff;
-       width: 11rem;
-   }
-   .image-btn{
-    border-radius: 10px;
-       box-sizing: border-box;
-       height: 100%;
-       margin: 0;
-       padding: 0;
-       width: 100%;
+       width: 20%;
    }
 
 .Section__thrdRow{
@@ -91,19 +81,21 @@ aside{
 }
 .Section__thrdRow-colabs{
     color: #029ba0;
-    font-size: 1.2rem;
+    width: 35%;
 }
 
 .Section__btn-adicionar{
+    background: url(./images/btn-adicionar.png);
+    background-size: 100%;
     align-content: center;
-       border-radius: 10px;
-       border: none;
-       box-sizing: border-box;
-       height: 100%;
-       margin: 0;
-       padding: 0;
-       outline: #fff;
-       width: 30%;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    outline: #fff;
+    width: 20%;
    }
 
 .Section__4thRow{
@@ -115,12 +107,19 @@ aside{
     grid-template-columns: 25% 15% 20% 7% 10%;
     justify-content:space-around ;
 }
+
+.Section__4thRow-name{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .Section__4thRow-email{
     box-sizing: border-box;
     margin: 0;
     color: gray;
     font-size: 0.7rem;
     font-weight: lighter;
+    width: 25%;
 }
 .Section__4thRow-charge{
     color: gray;
@@ -138,9 +137,9 @@ aside{
     margin: 0;
     padding: 0;
     margin-left: 1rem;
-    margin-right: 0.5rem;
+    margin-right: 15%;
     outline: #fff;
-    width: 6rem;
+    width: 100%;
 }
 
 
