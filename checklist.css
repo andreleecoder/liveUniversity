@@ -10,16 +10,6 @@ aside{
     position: fixed;
     bottom: 0;
 }
-section{
-    align-content: start;
-    bottom: 0;
-    display: grid;
-    grid-template-rows: 
-    10%,10%,10%,10%,10%,10%,10%;
-    height: 70vh;
-    margin: 1rem;
-    position: fixed;
-}
 
 .Section__frstRow{
     background:#fcfcfc;
@@ -104,13 +94,25 @@ section{
     font-size: 1.2rem;
 }
 
+.Section__btn-adicionar{
+    align-content: center;
+       border-radius: 10px;
+       border: none;
+       box-sizing: border-box;
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       outline: #fff;
+       width: 30%;
+   }
+
 .Section__4thRow{
     background: beige;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: 25% 15% 20% 20% 20%;
+    grid-template-columns: 25% 15% 20% 7% 10%;
     justify-content:space-around ;
 }
 .Section__4thRow-email{
@@ -118,6 +120,7 @@ section{
     margin: 0;
     color: gray;
     font-size: 0.7rem;
+    font-weight: lighter;
 }
 .Section__4thRow-charge{
     color: gray;
@@ -125,6 +128,19 @@ section{
     margin: 0;
     padding: 0;
     font-size: 0.8rem
+}
+.Section__btn-openClose{
+    align-content: center;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    outline: #fff;
+    width: 6rem;
 }
 
 
