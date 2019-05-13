@@ -1,0 +1,53 @@
+aside{
+    display: grid;
+    grid-template-columns:1fr;
+    position: fixed;
+    bottom: 0;
+}
+section{
+    align-content: start;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 
+    10%,10%,10%,10%,10%,10%,10%;
+    height: 70vh;
+    margin: 1rem;
+    position: fixed;
+}
+
+.Section__frstRow{
+    background:beige;
+    font-family: sans-serif;
+    height: 6rem;
+    width: 100%;
+}
+    
+    
+.Section__FrHead{
+    color:#dea727;
+    font-size:1.5rem;
+    
+    left:1rem;
+}
+.Section__Frsubt{
+    color:#dea727;
+    font-size:1rem;
+    margin-top: -1rem;
+    position: relative;
+    left:1rem;
+}
+
+.Section__scndRow{
+    background:beige;
+    font-family: sans-serif;
+    height: 5rem;
+    
+   }
+
+.Section__thrdRow{
+    background:beige;
+    font-family: sans-serif;
+    height: 5rem;
+
+}
+
