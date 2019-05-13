@@ -1,4 +1,9 @@
 
+h5{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 aside{
     display: grid;
     grid-template-columns:1fr;
@@ -57,25 +62,24 @@ section{
        border: none;
        border-radius: 10px;
        box-sizing: border-box;
-       height: 40%;
+       height: 2rem;
        margin: 0;
        padding: 0;
        margin-left: 1rem;
        margin-right: 0.5rem;
        outline: #fff;
-       width: 15%;
+       width: 8rem;
    }
    .Section__btn-download{
-
     align-content: center;
        border-radius: 10px;
        border: none;
        box-sizing: border-box;
-       height: 40%;
+       height: 2rem;
        margin: 0;
        padding: 0;
        outline: #fff;
-       width: 15%;
+       width: 11rem;
    }
    .image-btn{
     border-radius: 10px;
@@ -87,9 +91,40 @@ section{
    }
 
 .Section__thrdRow{
-    background:beige;
+    background:#fcfcfc;
+    display: grid;
     font-family: sans-serif;
-    height: 5rem;
+    grid-template-columns: 35% 20% 32%;
+    justify-content: space-around;
+    height: 2.5rem;
 
 }
+.Section__thrdRow-colabs{
+    color: #029ba0;
+    font-size: 1.2rem;
+}
+
+.Section__4thRow{
+    background: beige;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 25% 15% 20% 20% 20%;
+    justify-content:space-around ;
+}
+.Section__4thRow-email{
+    box-sizing: border-box;
+    margin: 0;
+    color: gray;
+    font-size: 0.7rem;
+}
+.Section__4thRow-charge{
+    color: gray;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 0.8rem
+}
+
 

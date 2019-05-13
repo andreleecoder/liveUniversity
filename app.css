@@ -145,21 +145,24 @@ section{
 
 .section__head-pesquisa{
    background: #fefefe;
-   border: solid 1px gray;
+   border: solid 1px #dddddd;
    border-radius: 5px;
-   position: absolute;
-   top: 15%;
-   right: 5%;
+   display: flex;
+   height: 2rem;
+   justify-content: space-between;
+   opacity: 0.9;
+   width: 20rem;
 }
 
 .section__btn-pesquisa{
+    align-content: center;
     background: url(./images/search-icon-hi.png);
     background-size: 100% 100%;
     border: #fefefe;
-    border: hidden #fff;
+    border: none;
     height: 1.3rem;
-    margin-right:1rem;
-    margin-top: 0.5rem;
+    margin: 5px;
+    margin-right: 10px;
     outline:none; 
     width: 1.2rem;}
 
@@ -167,9 +170,8 @@ section{
 .section__input-pesquisa{
     border: #fefefe;
     font-size: 1.5rem;
-    height: 1rem;
-    margin-left:1.2rem;
-    margin-bottom: 0.8rem;
+    height: 1.5rem;
+    margin-left: 1rem;
     outline:none; 
     width: 14rem;
     }
@@ -274,7 +276,7 @@ th{
         display: grid;
         grid-template-columns: 80% 20%;
         top: 15%;
-        width: 50%;
+        width: 10rem;
     }
 
     .section__input-pesquisa{
