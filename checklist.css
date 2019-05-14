@@ -45,7 +45,7 @@ aside{
    }
    .Section__btn-cheklst{
     background: url(./images/btn_checklist.png);
-    background-size: 100%;
+    background-size: 100% 100%;
     align-content: center;
     border-radius: 10px;
     border: none;
@@ -54,11 +54,11 @@ aside{
     margin: 0;
     padding: 0;
     outline: #fff;
-    width: 20%;
+    width: 15%;
    }
    .Section__btn-download{
        background: url(./images/btn_baixarConteudo.png);
-       background-size: 100%;
+       background-size: 100% 100%;
        align-content: center;
        border-radius: 10px;
        border: none;
@@ -67,14 +67,14 @@ aside{
        margin: 0;
        padding: 0;
        outline: #fff;
-       width: 20%;
+       width: 15%;
    }
 
 .Section__thrdRow{
     background:#fcfcfc;
     display: grid;
     font-family: sans-serif;
-    grid-template-columns: 35% 20% 32%;
+    grid-template-columns: 45% 30% 22%;
     justify-content: space-around;
     height: 2.5rem;
 
@@ -86,20 +86,20 @@ aside{
 
 .Section__btn-adicionar{
     background: url(./images/btn-adicionar.png);
-    background-size: 100%;
+    background-size: 100% 100%;
     align-content: center;
     border-radius: 10px;
     border: none;
     box-sizing: border-box;
-    height: 40%;
+    height: 60%;
     margin: 0;
     padding: 0;
     outline: #fff;
-    width: 20%;
+    width: 30%;
    }
 
 .Section__4thRow{
-    background: beige;
+    background: #fcfcfc;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -128,7 +128,9 @@ aside{
     padding: 0;
     font-size: 0.8rem
 }
-.Section__btn-openClose{
+.Section__btn-open{
+    background: url(./images/btn-abrir.png);
+    background-size: 100% 100%;
     align-content: center;
     border: none;
     border-radius: 10px;
@@ -141,5 +143,21 @@ aside{
     outline: #fff;
     width: 100%;
 }
+.Section__btn-remove{
+    background: url(./images/btn-remover.png);
+    background-size: 100% 100%;
+    align-content: center;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+    margin-left: 1rem;
+    margin-right: 15%;
+    outline: #fff;
+    width: 100%;
+}
+
 
 
