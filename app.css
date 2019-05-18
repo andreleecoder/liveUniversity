@@ -14,19 +14,14 @@ button{box-shadow: none;}
     height: 100vh;
     margin: 0;
     padding: 0;
-    position: relative;
     width: 100vw;
 }
-.row1{
-    box-sizing: border-box;
+.row1mob{
     display: grid;
     grid-template-columns: 50% 15% 15%;
-    grid-column-gap: 3%;
     height: 50%;
-    justify-content:space-around;
-    margin: 0;
-    padding: 0;
-    width: 100%
+    justify-content:space-evenly;
+    width: 100%;
 }
 
 .logo{
@@ -35,8 +30,6 @@ button{box-shadow: none;}
     background-size: 100% 100%;
     box-sizing: border-box;
     height: 35px;
-    margin: 0;
-    padding: 0;
     width: 100%;
 }
 
@@ -51,6 +44,7 @@ button{box-shadow: none;}
 }
 .colab:active{
     border-bottom: solid 3px #d6a132;}
+
 .cursos{
     background: url(./images/asideCursos.png);
     background-size: 100% 100%;
@@ -62,3 +56,11 @@ button{box-shadow: none;}
 }
 .cursos:active{
     border-bottom: solid 3px #029ba0;}
+    
+    
+    @media screen and (min-width:420px){
+        .row1mob,.logo,.colab,.cursos{
+            visibility: hidden;
+        }
+    }
+    
