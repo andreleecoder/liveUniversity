@@ -1,22 +1,64 @@
+body{
+    box-sizing: border-box;   
+    margin: 0;
+    padding: 0;
+}
+button{box-shadow: none;}
+
 .content{
     align-content: start;
     background: palegoldenrod;
     box-sizing: border-box;
     display: grid;
+    font-family: sans-serif;
     height: 100vh;
     margin: 0;
     padding: 0;
     position: relative;
     width: 100vw;
 }
+.row1{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 50% 15% 15%;
+    grid-column-gap: 3%;
+    height: 50%;
+    justify-content:space-around;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
 .logo{
     background: url(./images/livelogoMobile.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     box-sizing: border-box;
     height: 35px;
     margin: 0;
     padding: 0;
-    width: 50%;
-
+    width: 100%;
 }
+
+.colab{
+    background: url(./images/asideColab.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+}
+.colab:active{
+    border-bottom: solid 3px #d6a132;}
+.cursos{
+    background: url(./images/asideCursos.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 100%;
+}
+.cursos:active{
+    border-bottom: solid 3px #029ba0;}
