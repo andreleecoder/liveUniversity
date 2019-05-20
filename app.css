@@ -98,12 +98,12 @@ body{
     background: url(./images/teacher-name.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 20%;
+    height: 55px;
+    width: 80px;
 }
 section{
     border-radius: 10px;
-    box-shadow: gray 0px 5px 8px;
+    box-shadow: gray 0px 0px 8px;
     box-sizing: border-box;
     height: 80vh;
     display: flex;
@@ -116,13 +116,14 @@ section{
     width: 90vw;
 }
 .row3{
+    align-content: center;
     background: #fff;
     border-radius: 5%;
     box-sizing: border-box;
      display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    height: 6%;
+    height: 10%;
     justify-content:space-evenly;
     margin: 0;
     padding: 0;
@@ -155,8 +156,9 @@ section{
     background-repeat: no-repeat;
     border: none;
     border-radius: 8px;
+    height: 30px;
     outline: none;
-    width: 7%;
+    width: 30px;
 }
 .download-btn{
     background: url(./images/btn_baixarConteudo-mobile.png);
@@ -164,8 +166,9 @@ section{
     background-repeat: no-repeat;
     border: none;
     border-radius: 8px;
+    height: 30px;
     outline: none;
-    width:7%;
+    width:30px;
 }
 
     
@@ -177,8 +180,8 @@ section{
             background: url(./images/teacher-name.png);
             background-size: 100% 100%;
             background-repeat: no-repeat;
-            height: 150%;
-            width: 10%;
+            height: 70px;
+            width: 105px;
         }
     }
     
