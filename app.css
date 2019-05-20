@@ -12,6 +12,7 @@ body{
     font-family: sans-serif;
     grid-row-gap: 1%;
     height: 100vh;
+    justify-content: center;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -19,11 +20,14 @@ body{
 /*inicio livelogo e botoes*/
 .row1mob{
     background: #fff;
+    box-sizing: border-box;
     display: grid;
     grid-template-columns: 50% 15% 15%;
     height: 50%;
     justify-content:space-evenly;
-    width: 100%;
+    margin:0;
+    padding: 0;
+    width: 100vw;
 }
 
 .logo{
@@ -96,6 +100,72 @@ body{
     background-repeat: no-repeat;
     height: 100%;
     width: 20%;
+}
+section{
+    border-radius: 10px;
+    box-shadow: gray 0px 5px 8px;
+    box-sizing: border-box;
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 0;
+    left: 5vw;
+    width: 90vw;
+}
+.row3{
+    background: #fff;
+    border-radius: 5%;
+    box-sizing: border-box;
+     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 7%;
+    justify-content:space-evenly;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.sectionhead{
+   
+    color: #d6a132;
+    font-weight: lighter;
+  
+}
+.tittle{
+    box-sizing: border-box;
+    color: #d6a132;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+.subtittle{
+    box-sizing: border-box;
+    color: #d6a132;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+.checklist-btn{
+    background: url(./images/btn_checklist-mobile.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width: 7%;
+}
+.download-btn{
+    background: url(./images/btn_baixarConteudo-mobile.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    width:7%;
 }
 
     
