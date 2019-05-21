@@ -152,6 +152,23 @@ section{
     margin: 0;
     padding: 0;
 }
+
+.download-btn{
+    background: url(./images/btn_baixarConteudo-mobile.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 8px;
+    cursor: pointe;
+    height: 30px;
+    outline: none;
+    width:30px;
+}
+/*start dropdown effect*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
 .checklist-btn{
     background: url(./images/btn_checklist-mobile.png);
     background-size: 100% 100%;
@@ -162,26 +179,37 @@ section{
     outline: none;
     width: 30px;
 }
-.download-btn{
-    background: url(./images/btn_baixarConteudo-mobile.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    border: none;
-    border-radius: 8px;
-    height: 30px;
-    outline: none;
-    width:30px;
-}
-.dropdown-content,
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0;
+    z-index: 1;
+  }
+  .dropdown-content 
+  a:hover {background-color: #f1f1f1}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  /*end dropdown effect*/
+
 .checklist-tt,
 .checklist-st{
      box-sizing: border-box;
      margin: 0;
      padding: 0;
 }
+/*start checkbox effect*/
 .checkmark{
     background: #fff;
-    border: solid #d6a132;
+    border: solid 1px #ccc;
     height: 12px;
     width: 12px
 }.checkmark:focus{
@@ -216,7 +244,7 @@ section{
   }
 
   
-  /* When the checkbox is checked, add a blue background */
+ 
   .container input:checked ~ .checkmark {
     background-color: #d6a132;
   }
@@ -240,7 +268,7 @@ section{
     height: 10px;
     border: solid #d6a132;
   }      
-
+/*end checkbox effect*/
 
 
     
