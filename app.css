@@ -3,6 +3,8 @@ body{
     margin: 0;
     padding: 0;
 }
+a{color: #000;
+  text-decoration: none;}
 
 .content{
     align-content: start;
@@ -170,6 +172,76 @@ section{
     outline: none;
     width:30px;
 }
+.dropdown-content,
+.checklist-tt,
+.checklist-st{
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+.checkmark{
+    background: #fff;
+    border: solid #d6a132;
+    height: 12px;
+    width: 12px
+}.checkmark:focus{
+    background: #d6a132;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+  }
+
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #d6a132;
+  }
+  
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #d6a132;
+  }      
+
+
 
     
     @media screen and (min-width:420px){
