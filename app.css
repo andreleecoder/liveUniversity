@@ -1,4 +1,4 @@
-@import "./_botoes.css";
+
 
 body{
     box-sizing: border-box;   
@@ -88,11 +88,10 @@ section{
     box-shadow: gray 0px 0px 8px;
     box-sizing: border-box;
     height: 80vh;
-    display: grid;
     justify-content:center;
     margin: 0;
     padding: 0;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 5vw;
     width: 90vw;
@@ -109,7 +108,7 @@ section{
     justify-content:space-evenly;
     margin: 0;
     padding: 0;
-    width: 370px;
+    width: 100%;
 }
 
 .sectionhead{
@@ -137,15 +136,38 @@ section{
     background: #fff;
     border-radius: 5%;
     box-sizing: border-box;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     height: 10%;
     justify-content:space-evenly;
     margin: 0;
     padding: 0;
-    position: relative;
     width: 100%;
+}
+.checklist-btn{
+    background: url(./images/btn_checklist-mobile.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 4px;
+    outline: none;
+    height: 2rem;
+    width: 2rem;
+}
+
+.download-btn{
+    background: url(./images/btn_baixarConteudo-mobile.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border:none;
+    border-radius: 4px;
+    outline: none;
+    height: 2rem;
+    width: 2rem;
+}
+.checklist-tt{
+    font-size: 0.8rem;
+}
+.checklist-st{
+    font-size: 0.5rem;
 }
 .checklist-tt,.checklist-st{
     box-sizing: border-box;
