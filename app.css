@@ -47,7 +47,7 @@ a{color: #000;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 8px;
-    border: 0.5px solid #d6a132;
+    border: none;
 }
 .cursos{
     background: url(./images/asideCursos.png);
@@ -184,8 +184,8 @@ section{
     background: white;
     border-left: #d6a132 0.4rem solid;
     overflow: auto;
-    position: relative;
     cursor: pointer;
+    user-select: none;
     z-index: 1;
 }
   .show {display: block;}
@@ -197,7 +197,9 @@ section{
     width: 0;
   }
   
-  /* Create a custom checkbox */
+  .checklist{
+      position: relative;
+  }
   .checkmark {
     position: absolute;
     margin-left: 3px;
