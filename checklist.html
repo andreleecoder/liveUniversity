@@ -32,17 +32,16 @@
   </div>
   
   <button class="download-btn"></button> 
+  <button onclick="openCloseChecklist()" class="checklist-btn"></button>
  </div>
 
- <div id="row-dropdown">
-    <button  class="checklist-btn"></button>
- <label class="container">
+ 
+  <label id="dropdown" class="container">
       <h4 class="checklist-tt">instrução 1</h4>
       <p class="checklist-st">Algumas observações sobre essa instrução</p>
     <input type="checkbox" checked="checked">
     <span class="checkmark"></span>
-  </label> 
-</div>
+ </label> 
 
 </section>
 
@@ -50,6 +49,10 @@
 </main>
 
   <!--javascript-->
-  <script src="./index.js"></script>
+  <script>
+  function openCloseChecklist() {
+    document.getElementById("dropdown").classList.toggle("show");
+  }
+  </script>
 </body>
 </html>
