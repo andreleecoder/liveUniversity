@@ -10,7 +10,7 @@ a{color: #000;
 
 .content{
     align-content: start;
-    background: palegoldenrod;
+    background: white;
     box-sizing: border-box;
     display: grid;
     font-family: sans-serif;
@@ -41,6 +41,20 @@ a{color: #000;
     box-sizing: border-box;
     height: 35px;
     width: 100%;
+}
+.colab{
+    background: url(./images/asideColab.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    border: 0.5px solid #d6a132;
+}
+.cursos{
+    background: url(./images/asideCursos.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 8px;
+    border: none;
 }
 /*fim livelogo */
 
@@ -131,17 +145,7 @@ section{
     margin: 0;
     padding: 0;
 }
-#dropdown{
-    align-content: center;
-    background: #fff;
-    border-radius: 5%;
-    box-sizing: border-box;
-    height: 10%;
-    justify-content:space-evenly;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
+
 .checklist-btn{
     background: url(./images/btn_checklist-mobile.png);
     background-size: 100% 100%;
@@ -172,19 +176,16 @@ section{
 .checklist-tt,.checklist-st{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;;
+    padding: 0;
+    margin-left: 1.8rem;
 }
 .container{
     display: none;
     background: white;
+    border-left: #d6a132 0.4rem solid;
     overflow: auto;
     position: relative;
     cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
     z-index: 1;
 }
   .show {display: block;}
@@ -199,6 +200,7 @@ section{
   /* Create a custom checkbox */
   .checkmark {
     position: absolute;
+    margin-left: 3px;
     top: 0;
     left: 0;
     height: 25px;
@@ -246,6 +248,28 @@ section{
             background-repeat: no-repeat;
             height: 70px;
             width: 105px;
+        }
+
+        .checklist-btn{
+            background: url(./images/btn_checklist.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            border:none;
+            border-radius: 4px;
+            outline: none;
+            height: 2rem;
+            width: 10rem;
+        }
+        
+        .download-btn{
+            background: url(./images/btn_baixarConteudo.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            border:none;
+            border-radius: 4px;
+            outline: none;
+            height: 2rem;
+            width: 10rem;
         }
     }
     
